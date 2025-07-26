@@ -1,7 +1,3 @@
-
-
-
-
 @media (max-width: 768px) {
   .plus {
     font-size: 28px;
@@ -28,7 +24,7 @@
 }
 @media (max-width: 1024px) {
   .img {
-    margin-left: 0 !important; 
+    margin-left: 0 !important;
     justify-content: center !important;
   }
 }
@@ -45,7 +41,6 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .img {
     margin-left: 0 !important;
@@ -59,6 +54,55 @@
   }
 }
 
-
-
 /* axali */
+
+@media (max-width: 1250px) {
+  .menu {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 15px;
+  }
+
+  .deda {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .i {
+    width: 250px;
+    height: auto;
+    margin: 30px 0;
+  }
+
+  .pat {
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .menu a {
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* @media (max-width: 776) {
+  .burger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+} */
