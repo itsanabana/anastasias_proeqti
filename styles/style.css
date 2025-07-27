@@ -193,7 +193,7 @@ footer img {
   text-align: center;
   font-size: 32px;
   margin: 30px 0 10px;
-  color:rgb(16, 122, 160);
+  color: rgb(16, 122, 160);
 }
 
 .intro {
@@ -225,6 +225,11 @@ footer img {
   color: white;
   box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
 }
-.ukan {background-color: antiquewhite;
-
+.ukan {
+  background-color: antiquewhite;
+}
+.dream {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
