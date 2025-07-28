@@ -97,7 +97,6 @@
   }
 }
 
-
 @media (max-width: 1024px) {
   .deda {
     flex-direction: column;
@@ -144,9 +143,9 @@
     gap: 10px;
   }
   footer img {
-    width: 70px; 
+    width: 70px;
     height: auto;
   }
 }
 
-/* namushevrebi   */ 
+/* namushevrebi   */
