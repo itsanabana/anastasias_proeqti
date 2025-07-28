@@ -64,7 +64,7 @@ menu {
   font-size: 50px;
   margin-top: 100px;
   color: rgb(16, 122, 160);
-  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
 
@@ -249,3 +249,95 @@ footer img {
 }
 
 /* axali */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  background-color: #f4f4f9;
+}
+
+.contact-wrapper {
+  display: flex;
+  border: 2px solid blue;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: rgb(204, 211, 248);
+}
+
+.contact-box {
+  background: #ffffff;
+  border: 5px solid red;
+
+  display: flex;
+  max-width: 900px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+}
+
+.contact-img img {
+  width: 320px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-info {
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: red;
+  font-weight: 700;
+}
+
+.contact-link {
+  margin-bottom: 20px;
+}
+
+.contact-link a {
+  text-decoration: none;
+  font-size: 18px;
+  color: blue;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid #007bff;
+}
+
+.contact-link a i {
+  font-size: 22px;
+  margin-right: 14px;
+  color: #6a1b9a;
+  transition: transform 0.3s ease;
+}
+
+.contact-link a:hover {
+  background-color: blanchedalmond;
+  color: #6a1b9a;
+}
+
+.contact-link a:hover i {
+  transform: scale(1.2);
+  color: #4a148c;
+}
+
+.background {
+  background-color: rgb(159, 186, 214);
+}
